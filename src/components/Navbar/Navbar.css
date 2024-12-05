@@ -1,0 +1,10 @@
+nav {
+    width: inherit;
+    display: flex;
+    justify-content:space-between;
+    font-weight:500;
+}
+
+.links > * {
+    margin-left: 0.5rem;
+}
