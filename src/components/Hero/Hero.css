@@ -1,7 +1,11 @@
 .hero {
-    height: calc(100vh - 56px);
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;  
+    /* background-image: url(/src/assets/mobilemenuBG.svg);  
+    background-blend-mode: color-dodge;
+    background-position: top 5% left 0;
+    background-repeat: no-repeat;
+    background-size: 85%; */
 }
 

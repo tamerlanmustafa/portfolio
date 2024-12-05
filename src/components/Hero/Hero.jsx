@@ -1,5 +1,6 @@
 import './Hero.css'
 import AboutMe from '../AboutMe/AboutMe.jsx'
+import Projects from '../Projects/Projects.jsx'
 
 const Hero = () => {
     return (
@@ -11,8 +12,9 @@ const Hero = () => {
                 <a href="https://github.com/TamerlanMustafayev" target="_blank">Github</a>
             </section>       
             <hr />
-
-            <AboutMe/>
+            <AboutMe />
+            <hr />
+            <Projects/>
         </>
     )
 }

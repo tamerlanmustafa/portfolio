@@ -1,33 +1,7 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './AboutMe.css'
 
 const AboutMe = () => {
-
-    useEffect(() => {
-        const listItems = document.querySelectorAll("li");
-
-        listItems.forEach((item, index) => {
-            item.style.transitionDelay = `${index * 150}ms`;
-        });
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('show')
-                } else {
-                    entry.target.classList.remove('show')
-                }
-            })
-        })
-        const hiddenELs = document.querySelectorAll('.hidden')
-        hiddenELs.forEach((el) => {
-        observer.observe(el)
-    })
-    },[])
-
-    
-    
 
     return (
         <>
