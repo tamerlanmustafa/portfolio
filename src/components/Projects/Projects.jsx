@@ -1,11 +1,27 @@
 import './Projects.css'
+import projectsList from './ProjectsDB/ProjectsDB'
 
 const Projects = () => {
+
+    
+
     return (
         <>
             <section className="projects hidden">
                 <h1>Projects</h1>   
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis mollitia amet cumque quos autem voluptates sed, dolorem perferendis hic vel dolore est at nam modi ipsam ab minus consequuntur dolorum!</p>
+                <div className="projects-container">
+                    {
+                        projectsList.map((project, index) => (
+                            <div id={index} className="each-project">
+                                <h4>{project.title}</h4>
+                                <p>{ project.description}</p>
+                                <img src={project.image} alt="" />
+                                <a href={project.demoLink}>Demo</a>
+                                <a href={project.sourceCode}>Source</a>
+                            </div>
+                        ))
+                    }
+                </div>
             </section>
         
         </>
