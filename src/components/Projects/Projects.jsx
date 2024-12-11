@@ -1,4 +1,5 @@
 import './Projects.css'
+
 import projectsList from './ProjectsDB/ProjectsDB'
 
 const Projects = () => {
@@ -9,10 +10,10 @@ const Projects = () => {
         <>
             <section className="projects hidden">
                 <h1>Projects</h1>   
-                <div className="projects-container">
+                <div className="slider">
                     {
                         projectsList.map((project, index) => (
-                            <div id={index} className="each-project">
+                            <div key={index} className="each-project">
                                 <h4>{project.title}</h4>
                                 <p>{ project.description}</p>
                                 <img src={project.image} alt="" />
@@ -21,6 +22,8 @@ const Projects = () => {
                             </div>
                         ))
                     }
+                    <button id='next'>{'>'}</button>
+                    <button id='prev'> {'<'}  </button>
                 </div>
             </section>
         
