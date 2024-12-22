@@ -17,8 +17,10 @@ const Projects = () => {
                                 <h4>{project.title}</h4>
                                 <p>{ project.description}</p>
                                 <img src={project.image} alt="" />
-                                <a href={project.demoLink}>Demo</a>
-                                <a href={project.sourceCode}>Source</a>
+                                <div className="buttons">
+                                    <a target='_blank' href={project.demoLink}>Demo</a>
+                                    <a target='_blank' href={project.sourceCode}>Source</a>
+                                </div>
                             </div>
                         ))
                     }
