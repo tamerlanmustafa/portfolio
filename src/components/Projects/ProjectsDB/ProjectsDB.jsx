@@ -13,24 +13,16 @@ const projectsList = [
         title: 'kasjdfh  ',
         description: 'ThatOneDay is a unique application that lets you dive into the past by exploring historical data for any selected date.',
         image: 'https://picsum.photos/200/300',
-        demoLink: 'loremasdfljalsjf afj',
-        sourceCode: 'lore asfjeoj ioadskfnehb ', 
+        demoLink: 'DEMO',
+        sourceCode: 'SOURCE', 
     
     },
     {
         title: 'kasjdfh  ',
         description: 'ThatOneDay is a unique application that lets you dive into the past by exploring historical data for any selected date.',
         image: 'https://picsum.photos/200/300',
-        demoLink: 'loremasdfljalsjf afj',
-        sourceCode: 'lore asfjeoj ioadskfnehb ', 
-    
-    },
-    {
-        title: 'kasjdfh  ',
-        description: 'ThatOneDay is a unique application that lets you dive into the past by exploring historical data for any selected date.',
-        image: 'https://picsum.photos/200/300',
-        demoLink: 'loremasdfljalsjf afj',
-        sourceCode: 'lore asfjeoj ioadskfnehb ', 
+        demoLink: 'DEMO',
+        sourceCode: 'SOURCE', 
     
     }
     

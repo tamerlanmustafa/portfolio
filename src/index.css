@@ -17,7 +17,7 @@ body {
   line-height: 1.5;
   font-family: "Montserrat", serif;
   color: black;
-  background-color: white;
+  background-color: rgba(244, 208, 168, 0.661);
 }
 
 section {
@@ -51,7 +51,7 @@ hr {
 @media screen and (min-width: 450px) {
 
   #root {
-    width: 450px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;

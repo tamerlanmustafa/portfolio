@@ -9,8 +9,8 @@ const Projects = () => {
     return (
         <>
             <section className="projects hidden">
-                <h1>Projects</h1>   
-                <div className="slider">
+                <h1>Top projects</h1>   
+                <div className="project-container">
                     {
                         projectsList.map((project, index) => (
                             <div key={index} className="each-project">
@@ -22,8 +22,6 @@ const Projects = () => {
                             </div>
                         ))
                     }
-                    <button id='next'>{'>'}</button>
-                    <button id='prev'> {'<'}  </button>
                 </div>
             </section>
         
