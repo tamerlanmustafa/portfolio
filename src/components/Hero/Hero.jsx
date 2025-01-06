@@ -1,6 +1,8 @@
 import './Hero.css'
 import AboutMe from '../AboutMe/AboutMe.jsx'
 import Projects from '../Projects/Projects.jsx'
+import Footer from '../Footer/Footer.jsx'
+import Contact from '../Contact/Contact.jsx'
 
 const Hero = () => {
     return (
@@ -14,7 +16,11 @@ const Hero = () => {
             <hr />
             <AboutMe />
             <hr />
-            <Projects/>
+            <Projects />
+            <hr />
+            <Contact />
+            <hr />
+            <Footer />
         </>
     )
 }

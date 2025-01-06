@@ -5,7 +5,7 @@ const AboutMe = () => {
 
     return (
         <>
-            <section className='about-me hidden'>
+            <section id='about-me' className='about-me hidden'>
                 <h3>About me</h3>
                 <div className="my-info">
                     <div className="bio hidden">
@@ -62,8 +62,8 @@ const AboutMe = () => {
                         
                     </div>
 
-                    <div className="resume hidden">
-                        <Link to={'/resume'}>See my resume</Link>
+                    <div className="hidden">
+                        <Link className='resume ' to={'/resume'}>See my resume</Link>
                     </div>
                 </div>
             </section>        

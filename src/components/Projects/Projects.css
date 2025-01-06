@@ -1,9 +1,17 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
 .project-container{
     margin-top: 50px;
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2.5rem;
     align-items: start;
+    place-content: center;
 }
 
 .each-project {
@@ -31,28 +39,37 @@
 }
 
 
-
-
 .buttons > a {
     margin-right: 0.5rem;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 0.2rem 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     transition: all 0.3s;
 }
 
 .buttons > a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
-
-
-
-
 
 .each-project > img {
     width: 350px;
     height: auto;
+}
+
+.link-to-all-projects {
+    display: block;
+    margin-top: 2rem;
+    color: white;
+    padding: 0.2rem 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.link-to-all-projects:hover {
+    background-color: white;
+    color: black;
 }

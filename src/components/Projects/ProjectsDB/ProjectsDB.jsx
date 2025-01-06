@@ -10,8 +10,8 @@ const projectsList = [
     },
     {
         title: 'Film Fanatics',
-        description: 'Film Fanatics is a MERN application where movie enthusiasts can browse movies, read and post reviews, and interact with the community by adding, editing and deleting movies.',
-        demoLink: 'DEMO',
+        description: 'Film Fanatics is a MERN application where movie enthusiasts can add, edit, delete movies and write reviews about them.',
+        demoLink: 'https://filmfanaticapp-50d57edb13cc.herokuapp.com/',
         sourceCode: 'SOURCE', 
     
     },

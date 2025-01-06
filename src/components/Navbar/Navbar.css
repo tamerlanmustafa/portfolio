@@ -8,3 +8,23 @@ nav {
 .links > * {
     margin-left: 0.5rem;
 }
+
+
+.eye {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: #ffffff;
+}
+.eye:after {
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #0c093def;
+    border-radius: 50%;
+    content: " ";
+}

@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.2s ease-in-out;
   text-align: center;
 }
 
@@ -16,9 +15,12 @@ body {
   padding: 1rem 1.3rem;
   line-height: 1.5;
   font-family: "Montserrat", serif;
-  color: black;
-  background-color: rgba(244, 208, 168, 0.661);
+  color: rgb(255, 255, 255);
+  background-color: rgba(12, 9, 61, 0.938);
+  
 }
+
+
 
 section {
   height: calc(100vh - 24px);
@@ -36,13 +38,13 @@ width: 250px;
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 hr {
   margin: 1rem 0;
   border: none; 
-  background-color: gray; 
+  background-color: rgb(255, 255, 255); 
   height: 1px;
   border-radius: 5px;
 }
@@ -70,7 +72,7 @@ hr {
   opacity: 0;
   filter: blur(5x);
   transform: translateX(-100%);
-  transition: all 0.5s ;
+  transition: all 0.4s ease-in-out;
 }
 
 .show {

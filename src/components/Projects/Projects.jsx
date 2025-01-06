@@ -23,7 +23,9 @@ const Projects = () => {
                             </div>
                         ))
                     }
+
                 </div>
+                <a className='link-to-all-projects' href="#projects">See all projects</a>
             </section>
         
         </>
