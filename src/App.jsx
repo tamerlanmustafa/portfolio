@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar/NavBar.jsx';
+import NavBar from './components/Navbar/NavBar.jsx';
 import Hero from "./components/Hero/Hero.jsx";
 
 function App() {
