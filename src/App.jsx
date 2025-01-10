@@ -5,7 +5,6 @@ import Hero from "./components/Hero/Hero.jsx";
 
 function App() {
   useEffect(() => {
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
