@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './AboutMe.css'
 
+import resume from   '../../assets/TamerlanMustafaResume.pdf'
+
 const AboutMe = () => {
 
     return (
@@ -63,7 +65,7 @@ const AboutMe = () => {
                     </div>
 
                     <div className="hidden">
-                        <Link className='resume ' to={'/resume'}>See my resume</Link>
+                        <a className='resume ' href={resume}>See my resume</a>
                     </div>
                 </div>
             </section>        
