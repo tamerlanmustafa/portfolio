@@ -26,7 +26,7 @@ function App() {
 
       <NavBar />      
       <Routes>
-        <Route path='/' element={ <Hero/> }/>
+        <Route path='/' element={ <Hero key={Date.now()} /> }/>
         <Route path='/allprojects' element={ <AllProjects/> }/>
       </Routes>
     </>

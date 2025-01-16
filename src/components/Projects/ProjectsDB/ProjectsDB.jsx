@@ -21,20 +21,6 @@ const projectsList = [
         demoLink: 'https://yougastudio.netlify.app/',
         sourceCode: 'SOURCE', 
     
-    }    ,
-    {
-        title: 'YOUga Studio',
-        description: 'ThatOneDay is a unique application that lets you dive into the past by exploring historical data for any selected date.',
-        demoLink: 'https://yougastudio.netlify.app/',
-        sourceCode: 'SOURCE', 
-    
-    }    ,
-    {
-        title: 'YOUga Studio',
-        description: 'ThatOneDay is a unique application that lets you dive into the past by exploring historical data for any selected date.',
-        demoLink: 'https://yougastudio.netlify.app/',
-        sourceCode: 'SOURCE', 
-    
     }
     
 ]

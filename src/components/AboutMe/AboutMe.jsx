@@ -15,7 +15,7 @@ const AboutMe = () => {
                     </div>
 
                     <div className="skills hidden">
-                        <h4>Tech skill</h4>
+                        <h4>Tech skills</h4>
                         <div className="tech-skills">
                             <ul>
                                 <li className='hidden'>
