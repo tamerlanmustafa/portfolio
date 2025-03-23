@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/Navbar/NavBar.jsx';
 import Hero from "./components/Hero/Hero.jsx";
@@ -8,10 +7,9 @@ function App() {
 
   return (
     <>
-
       <NavBar />      
       <Routes>
-        <Route path='/' element={ <Hero key={Date.now()} /> }/>
+        <Route path='/' element={ <Hero/> }/>
         <Route path='/allprojects' element={ <AllProjects/> }/>
       </Routes>
     </>

@@ -11,54 +11,31 @@ const AboutMe = () => {
                 <h3>About me</h3>
                 <div className="my-info">
                     <div className="bio hidden">
-                        <p>With frontend coding experience prior to US Military Service, I transitioned directly into software engineering school afterward, driven by a commitment to continuous learning. I’m now seeking to leverage my experience in tech, eager to contribute to innovative projects that blend creativity with cutting-edge technology</p>
+                        <p>
+                            
+                            I am a full stack software engineer, seeking to leverage my experience in tech, eager to contribute to innovative projects that involves lots of problem-solving which is my favourite part about writing code.</p>
                     </div>
 
                     <div className="skills hidden">
-                        <h4>Tech skills</h4>
+                        <p>Here are a few technologies I’ve been working with recently:</p>
                         <div className="tech-skills">
-                            <ul>
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-html5"></i>
-                                    <p>HTML</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-css3-alt"></i>
-                                    <p>CSS</p>
-                                </li >
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-sass"></i>
-                                    <p>SASS</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-solid fa-paintbrush"></i>
-                                    <p>Tailwind</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-js"></i>
-                                    <p>Javascript</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-node"></i>
-                                    <p>Node JS</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-react"></i>
-                                    <p>React</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-python"></i>
-                                    <p>Python</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-solid fa-database"></i>
-                                    <p>MongoDB</p>
-                                </li>
-                                <li className='hidden'>
-                                    <i className="fa-brands fa-github"></i>
-                                    <p>Git</p>
-                                </li>
-                            </ul>
+                        <ul>
+                            <li className="hidded"><span>HTML</span></li>
+                            <li className="hidded"><span>CSS</span></li>
+                            <li className="hidded"><span>SCSS</span></li>
+                            <li className="hidded"><span>Tailwind</span></li>
+                            <li className="hidded"><span>JavaScript</span></li>
+                            <li className="hidded"><span>React</span></li>
+                            <li className="hidded"><span>Node.js</span></li>
+                            <li className="hidded"><span>EJS</span></li>
+                            <li className="hidded"><span>Flask</span></li>
+                            <li className="hidded"><span>Python</span></li>
+                            <li className="hidded"><span>PostgreSQL</span></li>
+                            <li className="hidded"><span>MongoDB</span></li>
+                            <li className="hidded"><span>Mongoose</span></li>
+                        </ul>
+
+                           
                         </div>
 
                         
