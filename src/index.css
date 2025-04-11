@@ -28,6 +28,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: var(--lightest-slate);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -37,7 +41,7 @@ body {
   padding: 1rem 1.3rem;
   line-height: 1.5;
   font-family: "Montserrat", serif;
-  color: var(--lightest-slate);
+  color: var(--slate);
   background-color: #0a1930;
   
 }

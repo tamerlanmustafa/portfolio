@@ -9,3 +9,6 @@
     color: var(--primary-color);
 }
   
+.hero p {
+    font-weight: 500;
+}

@@ -22,9 +22,9 @@ const AboutMe = () => {
                         <ul>
                             <li className="hidded"><span>HTML</span></li>
                             <li className="hidded"><span>CSS</span></li>
+                            <li className="hidded"><span>JavaScript</span></li>
                             <li className="hidded"><span>SCSS</span></li>
                             <li className="hidded"><span>Tailwind</span></li>
-                            <li className="hidded"><span>JavaScript</span></li>
                             <li className="hidded"><span>React</span></li>
                             <li className="hidded"><span>Node.js</span></li>
                             <li className="hidded"><span>EJS</span></li>
@@ -32,7 +32,6 @@ const AboutMe = () => {
                             <li className="hidded"><span>Python</span></li>
                             <li className="hidded"><span>PostgreSQL</span></li>
                             <li className="hidded"><span>MongoDB</span></li>
-                            <li className="hidded"><span>Mongoose</span></li>
                         </ul>
 
                            
