@@ -1,8 +1,8 @@
 .about-me {
-    padding-top: 50px;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
