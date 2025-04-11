@@ -6,17 +6,11 @@
 }
 
 
-
-
-
-
-
-
 .my-info {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .bio > p {
