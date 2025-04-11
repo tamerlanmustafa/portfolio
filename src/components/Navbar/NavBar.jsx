@@ -15,9 +15,7 @@ const NavBar = () => {
           <a href='#about-me'>About me</a>
           <a href='#projects'>Projects</a>
           <a href='#contact'>Contact</a>
-          <div className="hidden">
-            <a className='resume ' href={resume}>See my resume</a>
-          </div>
+          <a className='resume ' href={resume}>Resume</a>
         </div>
       </nav>
     </>

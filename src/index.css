@@ -8,6 +8,7 @@
 
 
 :root {
+  --main-color: #0a1930;
   --primary-color: #81efdd;
   --navy: #0a192f;
   --light-navy: #112240;
@@ -42,7 +43,7 @@ body {
   line-height: 1.5;
   font-family: "Montserrat", serif;
   color: var(--slate);
-  background-color: #0a1930;
+  background-color: var(--main-color) ;
   
 }
 
