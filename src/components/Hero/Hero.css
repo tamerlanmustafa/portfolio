@@ -5,5 +5,7 @@
 }
 
 
-
+.hero a {
+    color: var(--primary-color);
+}
   

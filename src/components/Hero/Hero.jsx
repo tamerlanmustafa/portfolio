@@ -30,7 +30,7 @@ const Hero = () => {
         <>
             <section className="hero">
                 <h1>Tamerlan Mustafa</h1>
-                <p>Frontend Developer</p>
+                <p>Full-Stack Developer</p>
                 <a href="https://github.com/TamerlanMustafayev" target="_blank" rel="noopener noreferrer">Github &#x1F517; </a>
             </section>
             <hr />
