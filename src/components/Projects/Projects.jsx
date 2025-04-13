@@ -29,7 +29,7 @@ const Projects = () => {
                     }
 
                 </div>
-                <Link className='link-to-all-projects' target="_blank" to={'https://github.com/tamerlanmustafa'}>See all projects</Link>
+                <Link className='link-to-all-projects' target="_blank" to={'https://github.com/tamerlanmustafa'}>See all projects →</Link>
             </section>
         
         </>
