@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer.jsx';
 import Contact from '../Contact/Contact.jsx';
 
 const Hero = () => {
+    
 
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {

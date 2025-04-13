@@ -4,6 +4,13 @@
 
 }
 
+.all-projects > a {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+
 .all-projects-container {
     margin-top: 1rem;
     display: flex;
@@ -24,11 +31,21 @@
 .each-project-of-all > hr {
     width: 100%;
     margin-top: 0.5rem;
+
 }
 .buttons-all {
     margin-top: 1rem;
     margin-right: auto;
+    
 }
+
+.buttons-all a:hover {
+    background-color:var(--primary-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    
+}
+
 .buttons-all > * {
     border: 1px solid white;
     border-radius: 5px;
