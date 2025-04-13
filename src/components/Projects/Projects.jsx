@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <>
             <section id='projects' className="projects hidden">
-                <h1>Selected projects</h1>   
+                <h2>Selected projects</h2>   
                 <div className="project-container">
                     {
                         projectsList.map((project, index) => (
@@ -19,7 +19,8 @@ const Projects = () => {
                                     <h4>{project.title}</h4>
                                     <p>{ project.description}</p>
                                     <div className="buttons">
-                                        <a target='_blank' href={project.demoLink}>Demo</a>
+                                        {project.demoLink ? <a target='_blank' href={project.demoLink}>Demo</a> : null}
+                                        
                                         <a target='_blank' href={project.sourceCode}>Source</a>
                                     </div>
                                 </div>

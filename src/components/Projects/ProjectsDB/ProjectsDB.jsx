@@ -14,7 +14,6 @@ const projectsList = [
     {
         title: 'Flask API with JWT Authentication',
         description: 'This is a Flask API that implements JWT authentication for secure access to resources.',
-        demoLink: 'https://github.com/tamerlanmustafa/flask-api-readsio-back-end',
         sourceCode: 'https://github.com/tamerlanmustafa/flask-api-readsio-back-end'
     },
     {

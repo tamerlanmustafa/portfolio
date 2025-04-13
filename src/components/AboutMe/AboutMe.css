@@ -13,6 +13,21 @@
     justify-content: space-evenly;
 }
 
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--main-color);
+}
+
+.bio > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    mix-blend-mode: luminosity;
+}
+
 .bio > p {
     margin: 1rem 0;
     text-align: justify;

@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
 import './AboutMe.css'
 
-
 const AboutMe = () => {
 
     return (
         <>
             <section id='about-me' className='about-me hidden'>
-                <h3>About me</h3>
+                <h2>About me</h2>
                 <div className="my-info">
                     <div className="bio hidden">
                         <p>
@@ -15,7 +14,7 @@ const AboutMe = () => {
                             <br />
                             <br />
                             These days, my main focus is leveraging my experience in tech and contributing to innovative projects that involve a lot of problem-solving — my favorite part of writing code.
-                            </p>
+                        </p>
                     </div>
 
                     <div className="skills hidden">
@@ -42,7 +41,6 @@ const AboutMe = () => {
                         
                     </div>
 
-                    
                 </div>
             </section>        
         </>

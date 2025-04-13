@@ -10,7 +10,8 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        <a href="/">Home</a>
+        <a href="/"><i class="fa-solid fa-house"></i></a>
+        
         <div className="links">
           <a href='#about-me'>About me</a>
           <a href='#projects'>Projects</a>
