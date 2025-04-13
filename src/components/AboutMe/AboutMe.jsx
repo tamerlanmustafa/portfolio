@@ -11,8 +11,11 @@ const AboutMe = () => {
                 <div className="my-info">
                     <div className="bio hidden">
                         <p>
-                            
-                            I am a full stack software engineer, seeking to leverage my experience in tech, eager to contribute to innovative projects that involves lots of problem-solving which is my favourite part about writing code.</p>
+                            Hello! My name is Tamerlan, and I love creating things that live on the internet. My interest in web development started back in 2017 when I discovered how to change text on websites using 'inspect' — turns out that curiosity led me to learn more about HTML and CSS!
+                            <br />
+                            <br />
+                            These days, my main focus is leveraging my experience in tech and contributing to innovative projects that involve a lot of problem-solving — my favorite part of writing code.
+                            </p>
                     </div>
 
                     <div className="skills hidden">
